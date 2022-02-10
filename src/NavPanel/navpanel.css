@@ -1,0 +1,47 @@
+.nav-bar {
+  background-color: #022b5f;
+  padding: 10px;
+}
+.search-input {
+  width: 40vw;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+}
+.logo {
+  font-size: 25px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.side-bar {
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: clamp(0.31rem, 2.5vw, 1.6rem);
+  background-color: white;
+}
+.price-bar {
+  width: 50px;
+  outline: none;
+}
+.apply-filter {
+  width: 20%;
+  position: absolute;
+  bottom: 30px;
+  background-color: #022b5f;
+  border: none;
+  border-radius: 2px;
+  height: 30px;
+  color: #eee;
+  cursor: pointer;
+}
+.reset-filter {
+  color: #022b5f;
+  font-size: 17px;
+  cursor: pointer;
+}

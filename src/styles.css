@@ -1,0 +1,83 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+.flex-between {
+  justify-content: space-between;
+}
+.flex-around {
+  justify-content: space-around;
+}
+.flex-evenly {
+  justify-content: space-evenly;
+}
+.vh-100 {
+  height: 100vh;
+}
+.vh-70 {
+  height: 70vh;
+}
+.vh-10 {
+  height: 10vh;
+}
+.vh-40 {
+  height: 40vh;
+}
+.vh-7 {
+  height: 7vh;
+}
+.vh-5 {
+  height: 5vh;
+}
+.vh-90 {
+  height: 90vh;
+}
+.vh-82 {
+  height: 82vh;
+}
+.vw-100 {
+  width: 100vw;
+}
+.vw-97 {
+  width: 97vw;
+}
+.vw-20 {
+  width: 20vw;
+}
+.vw-30 {
+  width: 30vw;
+}
+.vw-50 {
+  width: 50vw;
+}
+.vw-80 {
+  width: 80vw;
+}
+.vw-90 {
+  width: 90vw;
+}
+.overflow-scroll-y {
+  overflow-y: scroll;
+}
+.center-div {
+  margin: 0 auto;
+}
+.margin-2 {
+  margin: 2px;
+}
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute;
+}

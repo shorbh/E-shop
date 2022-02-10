@@ -1,0 +1,23 @@
+.wishlist {
+  width: 70vw;
+  margin: 0 auto;
+  overflow-y: scroll;
+  height: 90vh;
+}
+.wishlist__card {
+  height: 20vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.wishlist__card--desc {
+  height: 100%;
+}
+.wishlist__card--image {
+  height: 100%;
+  width: 7vw;
+  margin-right: 5px;
+}
+.wishlist__card--delete {
+  cursor: pointer;
+}

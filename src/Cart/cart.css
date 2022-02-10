@@ -1,0 +1,43 @@
+.cart {
+  overflow-y: scroll;
+  justify-content: center;
+}
+.cart__product {
+  width: 50vw;
+  height: 90vh;
+  margin-right: 10px;
+}
+.cart__price {
+  padding: 10px;
+  height: 20vh;
+  width: 20vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.cart__price,
+p {
+  margin: 0;
+}
+.cart__card {
+  height: 20vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.cart__card--desc {
+  height: 100%;
+}
+.cart__card--image {
+  height: 90%;
+  width: 7vw;
+  margin-right: 5px;
+}
+.cart__card--delete {
+  cursor: pointer;
+}
+.cart__count--input {
+  outline: none;
+  padding-left: 5px;
+  padding-right: 10px;
+  width: 1vw;
+  text-align: center;
+}
