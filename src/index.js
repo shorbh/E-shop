@@ -6,7 +6,7 @@ import { App } from "./App";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/E-shop">
     <StrictMode>
       <App />
     </StrictMode>
